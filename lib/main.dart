@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pagination/HOme/pagination_Screen.dart';
+import 'package:pagination/HOme/testing.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const PaginationScreen(),
+      home: const TestingPagination(),
     );
   }
 }
